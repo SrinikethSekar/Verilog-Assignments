@@ -4,7 +4,6 @@ output f,g,
 input clk);
 
 wire w1,w2,f3,g4; 
-
 assign w1 = x3|f3;
 assign w2 = x1&x2;
 
