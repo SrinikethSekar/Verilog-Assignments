@@ -4,8 +4,7 @@ module shift(
   output reg [4:0]dout
 );
   
-  always @(posedge clk) begin
-    
+ always @(posedge clk) begin   
     dout <= sft(din);
     
   end
@@ -19,5 +18,4 @@ module shift(
       end
     
   endfunction
-  
 endmodule
