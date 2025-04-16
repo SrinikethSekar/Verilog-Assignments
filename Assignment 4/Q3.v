@@ -6,7 +6,7 @@ module Q3;
 	reg[7:0]result;
 
 
-				//task
+				
 				task add;
 					input[7:0] x,y;
 					output [7:0]sum;
