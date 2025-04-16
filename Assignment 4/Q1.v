@@ -15,6 +15,7 @@ module task_example_nonblocking;
 				a = 5;
 				b = 10;
 				c = 15;
+
 				calculate_sum(a, b, c, sum);
 				$display("Sum: %d", sum);
 				end
