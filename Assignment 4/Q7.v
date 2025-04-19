@@ -10,7 +10,6 @@ module Q7;
 		
 	endfunction 
 
-
 	initial begin
 
 	$display("Right shift of 8:%0d",right_shift(8));
